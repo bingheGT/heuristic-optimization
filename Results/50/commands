@@ -1,0 +1,7 @@
+pr -mts, genetic_1.txt genetic_2.txt genetic_3.txt genetic_4.txt genetic_5.txt |cut -d, -f1,2,5,8,11 >> merged_100_genetic.txt
+pr -mts, igs_1.txt igs_2.txt igs_3.txt igs_4.txt igs_5.txt |cut -d, -f1,2,5,8,11 >> merged_100_igs.txt
+
+pr -mts, genetic_1.txt genetic_2.txt genetic_3.txt genetic_4.txt genetic_5.txt |cut -d, -f1,2,5,8,11 >> merged_50_genetic.txt
+
+pr -mts, igs_1.txt igs_2.txt igs_3.txt igs_4.txt igs_5.txt >> merged_100_igs_full.txt
+pr -mts, genetic_1.txt genetic_2.txt genetic_3.txt genetic_4.txt genetic_5.txt >> merged_100_genetic_full.txt
